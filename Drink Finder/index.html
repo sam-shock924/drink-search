@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" href="drink.png" type="image/x-icon" />
+		<title>Drink Finder</title>
+	</head>
+	<body>
+		<h1 class="title">Drink Finder</h1>
+		<div>
+			<input
+				type="radio"
+				name="search-options"
+				id="drink-name"
+				value="drink-name"
+				checked
+			/>
+			<label for="drink-name">Search for drink</label>
+			<input
+				type="radio"
+				name="search-options"
+				id="drink-ingredient"
+				value="drink-ingredient"
+			/>
+			<label for="drink-ingredient">Search for ingredient</label>
+		</div>
+		<div>
+			<input type="text" id="drink-search" />
+			<button id="search-button" type="submit">Search...</button>
+			<button id="random-drink-button">Random Drink!</button>
+		</div>
+		<div>
+			<dl id="search-results"></dl>
+		</div>
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>

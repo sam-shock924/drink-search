@@ -1,3 +1,3 @@
 # drink-search
 
-search for drinks [here](github.com/sam-shock924/drink-search/)
+search for drinks [here](https://sam-shock924/github.io/drink-search/)
